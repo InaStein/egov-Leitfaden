@@ -1,6 +1,6 @@
 site_name: Leitfaden Test
 
-#site_url: https://example.com
+site_url:  http://egov-leitfaden.readthedocs.io/
 site_author: Ina Stein
 site_description:
 # Repository
@@ -50,3 +50,8 @@ theme:
 
 nav:
   - Home: 'index.md'
+  - Kursdesign:
+    - Kurse konzipieren: 'kursdesign/kursdesign.md'
+  - LMS:
+    - Einführung ins LMS: 'lms/lms.md'
+  - Über den eGov-Campus: 'about.md'
