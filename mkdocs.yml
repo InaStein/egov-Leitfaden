@@ -1,0 +1,52 @@
+site_name: My Docs
+
+site_url: https://example.com
+site_author: Ina Stein
+site_description:
+# Repository
+#repo_name:
+#repo_url:
+#edit_uri: ""
+
+# Copyright
+copyright: Copyright &copy; 2022 eGov-Campus
+
+# Configuration
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.progressbar
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+
+theme:
+  name: material
+
+  language: de
+  features:
+    - content.tabs.link
+    - navigation.instant
+    - navigation.tabs
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+  font:
+    text: Encode Sans
+  palette:
+   - scheme: eGov
+
+
+
+
+nav:
+  - Home: 'index.md'
