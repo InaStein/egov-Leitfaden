@@ -1,13 +1,15 @@
-[data-md-color-scheme="eGov"] {
+:root {
 
   --md-primary-fg-color: #1D5560;
   --md-accent-fg-color: #268282;
-  --md-default-bg-color: #0a3c46;
   --md-default-fg-color--light: #D5F4F4;
   --md-typeset-color: #1D5560;
   --md-typeset-a-color: #50C5B6;
 }
+:root > *{
+  ---md-footer-fg-color: #1D5560;
+}
 
-h1 {
-  color: #0A3C46;
+.md-typeset h1 {
+  color: rgb(10,60,70);
 }
