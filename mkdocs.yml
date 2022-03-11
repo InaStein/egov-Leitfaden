@@ -29,7 +29,6 @@ markdown_extensions:
 docs_dir: docs
 theme:
   name: material
-
   language: de
   features:
     - content.tabs.link
@@ -40,6 +39,7 @@ theme:
     - search.highlight
     - search.share
     - search.suggest
+    - header.autohide
   font:
     text: Encode Sans
   palette:
